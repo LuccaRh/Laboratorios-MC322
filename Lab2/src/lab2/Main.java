@@ -1,8 +1,4 @@
 package lab2;
-import lab2.Sinistro;
-import lab2.Cliente;
-import lab2.Seguradora;
-import lab2.Veículo;
 
 public class Main {
 
@@ -13,7 +9,7 @@ public class Main {
 		Sinistro teste2 = new Sinistro("13/06/2003", "Barão Geraldo");
 		System.out.println(teste2.getId());
 		
-		Cliente lucca = new Cliente("lucca", "377.753.318-10", "30/10/2001", "Barão Geraldo", 21);
+		Cliente lucca = new Cliente("lucca", "971.550.110-96", "30/10/2001", "Barão Geraldo", 21);
 		if (lucca.validarCpf()) {
 			System.out.println("Ok");
 		};
