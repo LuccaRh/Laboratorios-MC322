@@ -1,14 +1,12 @@
 package lab5;
-import java.util.Scanner;
 
 public enum MenuOperacoes {
 	CADASTROS (1),
-    LISTAR (2),
-    EXCLUIR (3),
-    GERARSINISTRO (4),
-	TRANSFERIRSEGURO (5),
-	CALCRECEITASEGURADORA (6),
-	SAIR (7);
+    GERAR (2),
+    EXCLUIR (3), 
+    LISTAR (4), 
+    CALCULARRECEITA(5),
+	SAIR (6);
 	
 	public final int valores;
 	

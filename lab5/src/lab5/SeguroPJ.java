@@ -38,7 +38,7 @@ public class SeguroPJ extends Seguro{
 		for (Condutor condutor : this.getListaCondutor()) {
             condutores.append("\n\t").append("Condutor: ").append(condutor.getNome());
         }
-        return "Nome: " + this.cliente.getNome() + "\n\tData de Inicio:" + this.getDataInicio() + "\n\tData de Fim:" + this.getDataFim()
+        return "Nome: " + this.cliente.getNome() + "\n\tId:" + this.getId() + "\n\tData de Inicio:" + this.getDataInicio() + "\n\tData de Fim:" + this.getDataFim()
         + "\n\tNome da Seguradora:" + this.getSeguradora().getNome() + "\n\tCode da Frota: " + this.frota.getCode() +  "\n\tCondutores: " + condutores; 
     }
 	

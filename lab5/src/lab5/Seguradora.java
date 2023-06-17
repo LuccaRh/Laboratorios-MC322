@@ -86,9 +86,9 @@ public class Seguradora {
 		return true;
 	}
 	
-	public boolean removerCliente(String nome) {
+	public boolean removerCliente(String email) {
 	    for (Cliente cliente : this.listaCliente) {
-	        if (cliente.getNome().equalsIgnoreCase(nome)) { 
+	        if (cliente.getEmail().equalsIgnoreCase(email)) { 
 	        	this.listaCliente.remove(cliente); 
 	            return true; 
 	        }
